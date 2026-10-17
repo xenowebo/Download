@@ -199,7 +199,7 @@
     };
 
     const auth = getAuth(initializeApp(firebaseConfig));
-    const destination = "/download/";
+    const destination = "https://xenowebo.github.io/Download/";
     onAuthStateChanged(auth, (user) => {
       if (user) {
         document.getElementById("authCheck").hidden = true;
